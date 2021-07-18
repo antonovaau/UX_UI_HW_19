@@ -17,12 +17,4 @@ window.addEventListener('scroll', () => {
   } else {
       scrollUp.classList.remove("active");
   }
-
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-    
-  }
 });
-
-
