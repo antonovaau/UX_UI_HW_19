@@ -533,7 +533,6 @@ padding-top: 1%;
 }
 
 .scrollUp.active{
-
     bottom: 32px;
     pointer-events: auto;
     opacity: 1;
@@ -756,6 +755,23 @@ padding: 5% 5%;
 
 .containerGrid h1{
     text-align: center;
+}
+
+.scrollUp{
+    
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: .5s;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+
 }
 
 }
