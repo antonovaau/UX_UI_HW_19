@@ -350,7 +350,7 @@
     color: black;
     font-weight: bold;
     font-size: 20px;
-    background: rgb(239, 212, 203);
+    background: rgb(245, 242, 241);
 }
 
 /*My tools section styling ends*/
@@ -522,7 +522,7 @@ padding-top: 1%;
     opacity: 0;
     pointer-events: none;
     transition: .5s;
-    background: rgb(239, 212, 203);
+    background: rgba(250, 233, 221, 0.397);
     position: fixed;
     bottom: 16px;
     right: 32px;
@@ -562,7 +562,7 @@ padding-top: 1%;
     font-family: 'Hind_Vadodara', sans-serif;
     font-variant-caps: all-petite-caps;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 600;
     text-align: left;
     padding-bottom: 3%;
 
