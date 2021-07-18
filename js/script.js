@@ -14,14 +14,14 @@ const scrollUp = document.querySelector('.scrollUp');
 window.addEventListener('scroll', () => {
   if(window.pageYOffset > 100) {
       scrollUp.classList.add ("active");
-  }else {
+  } else {
       scrollUp.classList.remove("active");
   }
 
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-  
+    
   }
 });
 
